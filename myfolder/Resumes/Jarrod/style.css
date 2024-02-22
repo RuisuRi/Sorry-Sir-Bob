@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.heading{
+  text-align: left;
+  font-family: 'Segoe UI Symbol',sans-serif;
+  font-weight: 800;
+  font-size: 300%;
+  margin-left: 250px;
+}
+
+.name{
+  font-size: 50%;
+}
+
+.subname{
+  font-size: 35%;
+  font-weight: 100;
+}
+
+.profilepic{
+  position: relative;
+  top: -210px;
+  left: -225px
+}
+
+.body{
+  position: relative;
+  top: -175px;
+  margin-left: 20px;
+  font-family: 'Segoe UI Symbol',sans-serif;
+  text-align: left;
+}
+
+.bodyheader{
+  font-weight: 600;
+  font-size: 200%;
+}
+
+.bodyline{
+  background-color:#9c95fe;
+  width: 40px;
+  height: 7.5px;
+  
+}
+
+.bodylineHeading{
+  background-color:#9c95fe;
+  height: 7.5px;
+
+}
+
+.transition1{
+   animation: 1.5s slidein;
+}
+
+@keyframes slidein {
+  from {
+    right:100%;
+    opacity: 0;
+  }
+
+  to {
+    right:0;
+    opacity: 1;
+  }
+}
+
+.transition2{
+   animation: 2s slidein;
+}
+
+@keyframes slidein {
+  from {
+    right:100%;
+    opacity: 0;
+  }
+
+  to {
+    right:0;
+    opacity: 1;
+  }
+}
+
+.gameimage{
+  width: 400px;
+  height: auto;
+  box-shadow: 3px 3px 6px #000000;
+  filter: brightness(75%)
+}
+
+.gameimage:hover{
+  width: 450px;
+  height: auto;
+  box-shadow: 3px 3px 6px #000000;
+  animation: 0.5s game;
+  content: url('demo.gif');
+  filter: brightness(100%)
+  
+}
+
+@keyframes game {
+  from {
+    width: 400px;
+    height: auto;
+    filter: brightness(75%)
+    
+  }
+
+  to {
+    width: 450px;
+    height: auto;
+    filter: brightness(100%)
+    
+  }
+}

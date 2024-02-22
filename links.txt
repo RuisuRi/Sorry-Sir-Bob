@@ -1,0 +1,5 @@
+https://replit.com/@Hexel-Cordero/CurlyPossibleProgramminglanguage#script.js
+https://replit.com/@Jarrod-Louis-Lo/JS-Testing#script.js
+
+alert("panget ka jarrod")
+https://replit.com/@Hexel-Cordero/AdvancedIntentRedundancy

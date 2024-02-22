@@ -1,0 +1,105 @@
+.center{
+text-align: center;
+}
+.font{
+font-family: Arial;
+}
+.title{
+  margin:0px;
+  background-color: #72c7e4;
+  animation: spin 2s 1 linear;
+}
+
+.colorchange {
+  font-family: Arial;
+  font-size: 3em;
+  animation: color-change 1.5s infinite;
+}
+
+@keyframes spin{
+  from {
+  rotate: 0; 
+  scale: 0.1;
+  }
+  to {
+  rotate: 359deg; 
+  scale: 1;  
+  }
+}
+
+@keyframes color-change {
+  0% { color: #fff700; }
+  25% { color: #5656fb; }
+  50% { color: #56fbc4; }
+  75% { color: #ff5252; }
+  100% { color: #fff700; }
+}
+
+div{
+  margin: 0;
+}
+
+button{
+  display: block;
+  width: 200px;
+  height:75px;
+  font-size: 100%;
+  border: none;
+  text-align: center;
+  bottom: 50px;
+  border-radius: 12px;
+  font-weight: bold;
+  background: lightblue;
+  box-shadow: 0px 0px 10px #000000;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  opacity: translate(-50%, -50%);
+}
+
+button:hover{
+  font-size: 105%;
+  width:210px;
+  height:85px;
+  background: #a1c7d3;
+}
+
+.background{
+  background-image: url('Resources/wheeze.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  animation-name: wheeze;
+  animation-delay: 1.7s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+body{
+  margin: 0;
+}
+
+.header{
+  padding:40px;
+  padding-bottom: 20px;
+}
+
+@keyframes wheeze{
+
+  0%{
+    opacity: 0;
+    
+  }
+  1%{
+    visibility: visible;
+  }
+  100%{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+}

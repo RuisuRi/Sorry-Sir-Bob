@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0c192c;
+  min-height: 100vh;
+    background: #0c192c;
+    font-family: consolas;
+}
+
+button{ 
+margin: 0;
+padding: 10px;
+border: none;
+background: none;
+color: #03bcf4;;
+text-transform: uppercase;
+text-decoration: none;
+overflow: hidden;
+display: inline-block;
+font-family: consolas;
+position: relative;
+left: 1%;
+}
+
+button:hover{
+color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.header{
+  background-color: #08101b;
+}
+
+.container{
+margin-top: 10%
+}
+
+.container h1{
+font-family: consolas;
+font-size: 52px;
+margin-bottom: 60px;
+text-align: center;
+color: #2cb3d8; 
+}
+
+.members{
+display: flex;
+font-size: 0.875em;
+text-align: center;
+width: auto;
+justify-content: center;
+}
+
+.members .ourmembers{
+background: #0c192c;
+margin: 5px;
+margin-bottom: 50px;
+width: 300px;
+line-height: 20px;
+position: relative;
+color: #fff 
+}
+
+.members .ourmembers h3{
+color: #167f9c;
+font-size: 26px;
+margin-top: 50px;
+}
+
+.members .ourmembers p.about{
+color: #ccc;
+text-transform: uppercase;
+margin: 12px 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background: #0c192c;
+  font-family: consolas;
+}
+
+.container2{
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.bubble{
+  position: relative;
+  display: flex;
+}
+
+.bubble span{
+position: relative;
+width: 30px;
+height: 30px;
+background: #4fc3dc;
+margin: 0 40px;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+animation: animate 15s linear infinite;
+animation-duration: calc(30s / var(--i));
+}
+
+.bubble span:nth-child(even){
+  background: #4fc3dc;
+  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+}
+
+@keyframes animate{
+
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
+.submit_resume{ 
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: #03bcf4;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  font-family: consolas;
+  position: relative;
+  left: 1%;
+  }
+  
+  .submit_resume:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }

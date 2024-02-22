@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse at top left, #1b2735 0%, #090a0f 100%);
+  color: white;
+  overflow: scroll;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.container h2{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.container img{
+  margin-left: 20px;
+  font-size: 0.6em;
+  position: relative;  
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  top: 30px;
+}
+
+.square {
+  background-color: #fff;
+  width: 340px;
+  height:5px;
+  left: 220px;
+  bottom: 70px;
+  position: relative;
+  display: block;
+}
+
+.square2 {
+  background-color: #fff;
+  width: 340px;
+  height:5px;
+  left: 220px;
+  top: 20px;
+  position: relative;
+  display: block;
+}
+
+.aboutme{
+  margin-left: 225px;
+  font-size: 0.9em;
+  top: 110px;
+  color: lightgray;
+  position: absolute;
+}
+
+.aboutme-text{
+  margin-left: 225px;
+  font-size: 0.9em;
+  top: 140px;
+  color: lightgray;
+  position: absolute;
+}
+
+.container2 {
+  margin: 30px;
+  display: block;
+}
+
+.hobby {
+  font-size: 0.9em;
+  margin-left: 180px;
+  line-height: 1.8;
+  list-style-type: square;
+}
+
+.hobby li{
+  margin-left: 16px;  
+}
+
+.hobby p {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.hobby span::after {
+  content: url(naya.png);
+  width: 10%;
+  height: auto;
+}
+
+.education {
+  font-size: 0.9em;
+  margin-left: 180px;
+  margin-top: 50px;
+  line-height: 1.8;
+  list-style-type: none;
+}
+
+.education p {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.seminar {
+  font-size: 0.9em;
+  margin-left: 180px;
+  line-height: 1.8;
+  list-style-type: none;
+}
+
+.seminar p {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.target {
+  font-size: 0.9em;
+  margin-left: 180px;
+  line-height: 1.8;
+  list-style-type: none;
+}
+
+.target p {
+  font-weight: 700;
+  font-size: 1.5em;
+}

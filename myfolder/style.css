@@ -1,0 +1,56 @@
+.center{
+text-align: center;
+}
+.font{
+font-family: Arial;
+}
+
+
+body{
+margin: 0px;
+background: #0c192c;
+}
+
+.para{
+  margin: 50px 100px 50px 100px;
+  padding: 50px;
+  background-color: #f0f1f4;
+  box-shadow:0px 0px 10px #000000; 
+}
+
+
+.goals{
+  margin: 50px 100px 50px 100px;
+  padding: 50px;
+  background-color: lightblue;
+  box-shadow: 0px  0px 10px #000000;
+}
+
+  button{ 
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: #03bcf4;;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  font-family: consolas;
+  position: relative;
+  left: 1%;
+  }
+
+button:hover{
+color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.header{
+  background-color: #08101b;
+}
+img{
+  position: relative;
+  left:50%;
+}
